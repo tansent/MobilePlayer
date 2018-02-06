@@ -1,7 +1,9 @@
-package jtli.com.mobileplayer;
+package jtli.com.mobileplayer.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import jtli.com.mobileplayer.R;
 
 public class SplashActivity extends AppCompatActivity {
 
