@@ -42,7 +42,7 @@ public class SystemVideoPlayerActivity extends Activity {
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                ToastUtils.showLongToast("video play complete, uri="+uri.toString());
+//                ToastUtils.showLongToast("video play complete, uri="+uri.toString());
             }
         });
 
@@ -51,7 +51,7 @@ public class SystemVideoPlayerActivity extends Activity {
             videoView.setVideoURI(uri);
         }
 
-        videoView.setMediaController(new MediaController(this));
+//        videoView.setMediaController(new MediaController(this)); //system's default control panel
 
 
         //----------------------------------------------------------
